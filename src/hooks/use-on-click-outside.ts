@@ -24,4 +24,4 @@ export const useOnClickOutside = <T extends HTMLElement = HTMLElement>(
       document.removeEventListener('touchstart', listener)
     }
   }, [ref, handler]) // Reload only if ref or handler changes
-}
+}
