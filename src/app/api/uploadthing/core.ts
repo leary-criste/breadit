@@ -15,4 +15,4 @@ export const ourFileRouter = {
     .onUploadComplete(async ({ metadata, file }) => {}),
 } satisfies FileRouter
 
-export type OurFileRouter = typeof ourFileRouter
+export type OurFileRouter = typeof ourFileRouter
